@@ -105,7 +105,7 @@ const GameBoard = () => {
                                     : cell === 2
                                     ? { backgroundImage: `url(${coin})` }
                                     : cell === 3
-                                    ? { backgroundImage: `url(${bg})` }
+                                    ? {  }
                                     : cell === 4
                                     ? { backgroundImage: `url(${ghost})` }
                                     : cell === 5
