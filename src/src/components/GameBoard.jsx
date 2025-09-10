@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import wall from "../assets/sprites/icons8-coconut-50.png";
+import wall from "../assets/sprites/icons8-bush-64.png";
 import coin from "../assets/sprites/icons8-beet-50.png";
 import pacmann from "../assets/sprites/icons8-milk-bottle-50.png";
 {/*import bg from "./assets/bg.png";*/}
