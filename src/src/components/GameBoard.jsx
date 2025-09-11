@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import wall from "../assets/sprites/icons8-bush-64.png";
-import coin from "../assets/sprites/icons8-beet-50.png";
-import pacmann from "../assets/sprites/icons8-milk-bottle-50.png";
+import wall from "../assets/sprites/bush.png";
+import coin from "../assets/sprites/garlic.png";
+import pacmann from "../assets/sprites/milk-bottle.png";
 {/*import bg from "./assets/bg.png";*/}
-import ghost from "../assets/sprites/icons8-crab-50.png";
+import ghost from "../assets/sprites/crab.png";
 import "./GameBoard.css"
 
 const GameBoard = () => {
@@ -20,6 +20,10 @@ const GameBoard = () => {
         [1, 2, 2, 2, 2, 2, 1, 4, 2, 2, 2, 2, 1],
         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
     ]);
+    //Exit value - to present in the matrix
+
+
+
     const [gameOver, setGameOver] = useState(false);
     // Function to handle PacMan movement
     const handleKeyDown = (event) => {
