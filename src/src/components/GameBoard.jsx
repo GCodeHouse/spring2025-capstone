@@ -4,6 +4,7 @@ import coin from "../assets/sprites/garlic.png";
 import pacmann from "../assets/sprites/milk-bottle.png";
 {/*import bg from "./assets/bg.png";*/}
 import ghost from "../assets/sprites/crab.png";
+
 import "./GameBoard.css"
 
 const GameBoard = () => {
@@ -20,10 +21,11 @@ const GameBoard = () => {
         [1, 2, 2, 2, 2, 2, 1, 4, 2, 2, 2, 2, 1],
         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
     ]);
-    //Exit value - to present in the matrix
 
-
-
+    // Values to pseudo-randomly add to above matrix
+    // Exit value - to present in the matrix: 0, somewhere along the GameBoard wall
+    // Values for 2-3 "negative" items and 2-3 "positive" items
+  
     const [gameOver, setGameOver] = useState(false);
     // Function to handle PacMan movement
     const handleKeyDown = (event) => {
