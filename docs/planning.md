@@ -25,12 +25,12 @@ Week 9 - In class: delegate responsibilities that we can each do some work on in
 ✅ - Wiring up assets (place them where they need to be, remove any placeholders we have)
 ✅ - Community get-together - 1hr of Saturday class (9/6)
 
+
 Week 10
 ✅ - Collision detection
 Add additional styling to the grid and maze layout
 ✅ - Conditions for winning or losing (i.e timer goes down and scoring)
 ✅ - Add Timer Component to Game Board component
-
 
 Week 11
 Testing/bug fixes

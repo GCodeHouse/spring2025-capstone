@@ -4,7 +4,6 @@ import Countdown from "react-countdown";
 
 function Timer({ duration, gameOver }) {
     const [completedTime, setCompletedTime] = React.useState(() => Date.now() + duration * 1000);
-
     // Reset timer if duration changes
     React.useEffect(() => {
         setCompletedTime(Date.now() + duration * 1000);
