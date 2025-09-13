@@ -1,13 +1,11 @@
 import React from "react";
-import Timer from './Timer.jsx'
 import GameBoard from './GameBoard.jsx'
+import "./Home.css";
 
 
 function Home() {
     return(
-        <div>
-            <Timer duration={10}/>
-        
+        <div className="home-container">
             <GameBoard/>
         </div>
         
